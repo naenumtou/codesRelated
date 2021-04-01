@@ -12,11 +12,12 @@ data = {
 # Create dataframe
 savingAccount = pd.DataFrame(data)
 
-# Create output dataframe
+# Create output
 months = pd.date_range(start = '30/09/2017',
                        end = '31/05/2018',
                        freq = 'M')
 
+# Create dataframe
 remainingBalance = pd.DataFrame({'Month': months})
 
 # Convert date time format
